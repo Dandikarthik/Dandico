@@ -1,10 +1,13 @@
 {
-  "name": "fashion-store",
+  "homepage": "https://dandikarthik.github.io/Dandico",
+  "name": "dandico",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
